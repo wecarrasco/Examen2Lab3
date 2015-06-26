@@ -13,6 +13,6 @@ public:
 private:
 	int* stack;
 	int numero;
-	int sizeElemento = 0;
-	int sizeTemp = 10;
+	int sizeElemento;
+	int sizeTemp;
 };
