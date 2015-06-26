@@ -1,6 +1,6 @@
 #include "stack.hpp"
 
-using std namespace;
+using namespace std;
 
 int main(int argc, char* argv[]){
 	int opcion;
