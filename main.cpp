@@ -1,11 +1,12 @@
 #include "stack.hpp"
+#include <iostream>
 
-using namespace std;
+using namespace std	;
 
 int main(int argc, char* argv[]){
 	int opcion;
 	int numero;
-	stack s();
+	Stack s;
 
 	do{
 		cout<<"1. Meter al stack"<<endl;
@@ -18,10 +19,10 @@ int main(int argc, char* argv[]){
 			cin >> numero;
 			s.push(numero);
 		}else{
-			int n = s.pop();
+			int n; 
+			n = s.pop();
 			cout<<"El numero extraido es: " << n << endl;		
 		}
 	}while(opcion != 3);
-
 	return 0;
 }
