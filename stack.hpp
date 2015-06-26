@@ -13,4 +13,5 @@ public:
 private:
 	int* stack;
 	int numero;
+	int size = 0;
 };
